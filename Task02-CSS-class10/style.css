@@ -1,0 +1,31 @@
+/* Last rule */
+/* p{
+    color: red;
+}
+
+p{
+    color: green;
+} */
+
+/* Specificity */
+/* *{
+    color: red;
+}
+
+p{
+    color: green !important;
+}
+
+p#intro{
+    color: blue;
+} */
+
+/* Inheritance */
+/* div{
+    color: #112233;
+}
+
+p{
+    font-family: cursive;
+    color: inherit;
+} */
