@@ -5,6 +5,10 @@
 
 p{
     color: green;
+}
+
+p{
+    color: blue;
 } */
 
 /* Specificity */
@@ -13,7 +17,7 @@ p{
 }
 
 p{
-    color: green !important;
+    color: green;
 }
 
 p#intro{
@@ -22,10 +26,23 @@ p#intro{
 
 /* Inheritance */
 /* div{
-    color: #112233;
+    color: blue;
 }
 
 p{
     font-family: cursive;
     color: inherit;
 } */
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+.page {
+    border: 1px solid green;
+    background-color: #efefef;
+    padding: inherit;
+}
